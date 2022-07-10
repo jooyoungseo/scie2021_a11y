@@ -1,0 +1,12 @@
+
+## Scatterplot
+
+A scatterplot summarizes the results (Figure\ \@ref(fig:cor_scatterplot)).
+
+```{r cor_scatterplot, echo=F, dev.args = list(bg = 'white'), fig.cap="Correlation scatterplot."}
+library(ggpubr)
+ggscatter(data, x = "IV", y = "DV", 
+          add = "reg.line", conf.int = TRUE, 
+          cor.coef = TRUE, cor.method = "pearson",
+          xlab = IVdesc, ylab = DVdesc)
+```

@@ -1,0 +1,766 @@
+"Rule ID","Description","Help","Help URL","Impact","Manual","Needs Review","IGT","Selector","Summary","Source Code","Tags","Found By","Test Title","Test URL","Share URL","Created At"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".breadcrumb > .active""]","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #b9d3eb, background color: #666666, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1","<li class=""active"">Submission</li>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".nav-submenu:nth-child(2) > a""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""javascript:setNextPage('AUTHOR_TYPE')"" hidefocus=""true"" style=""outline: none;""> <i class=""fa fa-chevron-right""></i>&nbsp;Step 1: Type, Title, &amp; Abstract </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".nav-submenu:nth-child(3) > a""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""javascript:setNextPage('AUTHOR_FILE_UPLOAD')"" hidefocus=""true"" style=""outline: none;""> <i class=""fa fa-chevron-right""></i>&nbsp;Step 2: File Upload </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".nav-submenu:nth-child(4) > a""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""javascript:setNextPage('AUTHOR_ATTRIBUTES')"" hidefocus=""true"" style=""outline: none;""> <i class=""fa fa-chevron-right""></i>&nbsp;Step 3: Attributes </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".nav-submenu:nth-child(5) > a""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""javascript:setNextPage('AUTHOR_AUTHORS')"" hidefocus=""true"" style=""outline: none;""> <i class=""fa fa-chevron-right""></i>&nbsp;Step 4: Authors &amp; Institutions </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".nav-submenu:nth-child(6) > a""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""javascript:setNextPage('AUTHOR_REVIEWERS')"" hidefocus=""true"" style=""outline: none;""> <i class=""fa fa-chevron-right""></i>&nbsp;Step 5: Reviewers </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".nav-submenu:nth-child(8) > a""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""javascript:setNextPage('AUTHOR_SUBMIT')"" hidefocus=""true"" style=""outline: none;""> <i class=""fa fa-chevron-right""></i>&nbsp;Step 7: Review &amp; Submit </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","[""#countdisplayAUTHOR_COMMENTS""]","Fix any of the following:
+  Element has insufficient color contrast of 2.84 (foreground color: #ffffff, background color: #999999, font size: 7.5pt (10.01px), font weight: bold). Expected contrast ratio of 4.5:1","<span class=""label charcount"" id=""countdisplayAUTHOR_COMMENTS"">
+      
+    <span id=""countAUTHOR_COMMENTS"">0</span> out of 32768 characters
+       
+      </span>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","[""a[target=\""_new\""]:nth-child(1)""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html"" target=""_new"" hidefocus=""true"" style=""outline: none;"">Expects Data Policy</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","[""a[target=\""_new\""]:nth-child(2)""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""https://authorservices.wiley.com/author-resources/Journal-Authors/open-access/data-sharing-citation/data-sharing-policy.html#standardtemplates"" target=""_new"" hidefocus=""true"" style=""outline: none;"">here</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","[""tr:nth-child(2) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""] > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD212642\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD212642","<p id=""ANCHOR_CUSTOM_FIELD212642"" name=""ANCHOR_CUSTOM_FIELD212642"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","[""tr:nth-child(4) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""] > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD370770\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD370770","<p id=""ANCHOR_CUSTOM_FIELD370770"" name=""ANCHOR_CUSTOM_FIELD370770"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","[""tr:nth-child(7) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""] > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD370771\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD370771","<p id=""ANCHOR_CUSTOM_FIELD370771"" name=""ANCHOR_CUSTOM_FIELD370771"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".headercells[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(2) > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD435377\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD435377","<p id=""ANCHOR_CUSTOM_FIELD435377"" name=""ANCHOR_CUSTOM_FIELD435377""><b>Yes</b>  </p>","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(2) > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD435378\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD435378","<p id=""ANCHOR_CUSTOM_FIELD435378"" name=""ANCHOR_CUSTOM_FIELD435378"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(2) > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD435379\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD435379","<p id=""ANCHOR_CUSTOM_FIELD435379"" name=""ANCHOR_CUSTOM_FIELD435379"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(2) > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD435380\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD435380","<p id=""ANCHOR_CUSTOM_FIELD435380"" name=""ANCHOR_CUSTOM_FIELD435380"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(2) > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD435381\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD435381","<p id=""ANCHOR_CUSTOM_FIELD435381"" name=""ANCHOR_CUSTOM_FIELD435381"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(2) > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD435382\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD435382","<p id=""ANCHOR_CUSTOM_FIELD435382"" name=""ANCHOR_CUSTOM_FIELD435382"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(2) > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD435383\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: ANCHOR_CUSTOM_FIELD435383","<p id=""ANCHOR_CUSTOM_FIELD435383"" name=""ANCHOR_CUSTOM_FIELD435383"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".visible-desktop.row-fluid > .btn-save-page-continue.btn-primary[name=\""AUTHOR_SUBMIT\""]""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: btnSubmit","<a id=""btnSubmit"" name=""AUTHOR_SUBMIT"" style=""outline: none;"" hidefocus=""true"" class=""btn btn-primary pull-right btn-save-page-continue"">Save &amp; Continue <i class=""fa fa-chevron-right""></i></a>","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".btn-save-page.pull-right.btn""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: btnSave","<a id=""btnSave"" style=""outline: none; margin-right: 10px;"" hidefocus=""true"" class=""btn pull-right btn-save-page"">Save</a>","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","[""#MissedStepsModal > .modal-header > h3""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: myModalLabel","<h3 id=""myModalLabel""><i class=""fa fa-warning"" style=""color:rgb(255,0,0);""></i>&nbsp;Step Incomplete. Continue?</h3>","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"html-has-lang","Ensures every HTML document has a lang attribute","<html> element must have a lang attribute","https://dequeuniversity.com/rules/axe/4.3/html-has-lang?application=AxeChrome","serious","No","No","","[""html""]","Fix any of the following:
+  The <html> element does not have a lang attribute","<html class=""x-strict"">","cat.language,wcag2a,wcag311,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""img[align=\""absmiddle\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img align=""absmiddle"" src=""/images/common/white_arrow.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","["".container > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/societyimages/dvg-wiley/DVG_Banner_mc_en_US.jpg"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""#QUICK_SEARCH_HEADER_SEARCH_TEXT""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input id=""QUICK_SEARCH_HEADER_SEARCH_TEXT"" name=""QUICK_SEARCH_HEADER_SEARCH_TEXT"" type=""text"" class=""span2 text_header"" hidefocus=""true"" style=""outline: none; margin-left: 0px;"" onfocus=""this.onkeypress = getEnterKeyQuickHeaderS"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""#AUTHOR_COMMENTS""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<textarea id=""AUTHOR_COMMENTS"" name=""AUTHOR_COMMENTS"" class=""input-block-level special-chars-target special-chars-focus"" type=""text"" hidefocus=""true"" style=""outline: medium none;"" rows=""3"" maxlength=""32768"" oninput=""S1MUtils.counterChars('AUTHOR_COMMENTS','#countAUTHOR_COMMENTS','32768','#countdisplayAUTHOR_COMMENTS')"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161219\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161219"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51941','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161216\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161216"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51938','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161281\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161281"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51967','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161280\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161280"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51966','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID51971\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID51971"" value=""161282"" onclick=""setField('CF_ID_DIRTY_FL_51971','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID435404\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID435404"" value=""814139"" onclick=""setField('CF_ID_DIRTY_FL_435404','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID51973\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID51973"" value=""161283"" onclick=""setField('CF_ID_DIRTY_FL_51973','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID410548\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID410548"" value=""777116"" onclick=""setField('CF_ID_DIRTY_FL_410548','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID51974\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID51974"" value=""161284"" onclick=""setField('CF_ID_DIRTY_FL_51974','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\34 97946\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID212642"" value=""497946"" onclick=""setField('CF_ID_DIRTY_FL_212642','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\34 97947\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID212642"" value=""497947"" onclick=""setField('CF_ID_DIRTY_FL_212642','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\37 21007\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID370770"" value=""721007"" onclick=""setField('CF_ID_DIRTY_FL_370770','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\37 21008\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID370770"" value=""721008"" onclick=""setField('CF_ID_DIRTY_FL_370770','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\37 21009\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID370771"" value=""721009"" onclick=""setField('CF_ID_DIRTY_FL_370771','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\37 21010\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID370771"" value=""721010"" onclick=""setField('CF_ID_DIRTY_FL_370771','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""textarea[name=\""CUSTOM_FIELD_RESPONSE_ID721011\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<textarea class=""pagecontents"" cols=""50"" rows=""10"" name=""CUSTOM_FIELD_RESPONSE_ID721011"" onblur=""textLimit(document.forms[0].CUSTOM_FIELD_RESPONSE_ID721011, 40000);"" onchange=""setField('CF_ID_DIRTY_FL_370772','Y'); ""></textarea>","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14058\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435377"" value=""814058"" onclick=""setField('CF_ID_DIRTY_FL_435377','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14059\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435377"" value=""814059"" onclick=""setField('CF_ID_DIRTY_FL_435377','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14060\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435377"" value=""814060"" onclick=""setField('CF_ID_DIRTY_FL_435377','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14061\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435378"" value=""814061"" onclick=""setField('CF_ID_DIRTY_FL_435378','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14062\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435378"" value=""814062"" onclick=""setField('CF_ID_DIRTY_FL_435378','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14063\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435378"" value=""814063"" onclick=""setField('CF_ID_DIRTY_FL_435378','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14064\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435379"" value=""814064"" onclick=""setField('CF_ID_DIRTY_FL_435379','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14065\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435379"" value=""814065"" onclick=""setField('CF_ID_DIRTY_FL_435379','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14066\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435379"" value=""814066"" onclick=""setField('CF_ID_DIRTY_FL_435379','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14067\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435380"" value=""814067"" onclick=""setField('CF_ID_DIRTY_FL_435380','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14068\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435380"" value=""814068"" onclick=""setField('CF_ID_DIRTY_FL_435380','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14069\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435380"" value=""814069"" onclick=""setField('CF_ID_DIRTY_FL_435380','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14070\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435381"" value=""814070"" onclick=""setField('CF_ID_DIRTY_FL_435381','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14071\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435381"" value=""814071"" onclick=""setField('CF_ID_DIRTY_FL_435381','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14072\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435381"" value=""814072"" onclick=""setField('CF_ID_DIRTY_FL_435381','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14073\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435382"" value=""814073"" onclick=""setField('CF_ID_DIRTY_FL_435382','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14074\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435382"" value=""814074"" onclick=""setField('CF_ID_DIRTY_FL_435382','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14075\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435382"" value=""814075"" onclick=""setField('CF_ID_DIRTY_FL_435382','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14076\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435383"" value=""814076"" onclick=""setField('CF_ID_DIRTY_FL_435383','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14077\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435383"" value=""814077"" onclick=""setField('CF_ID_DIRTY_FL_435383','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\38 14078\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435383"" value=""814078"" onclick=""setField('CF_ID_DIRTY_FL_435383','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID979664\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID979664"" value="""" onchange=""setField('CF_ID_DIRTY_FL_555188','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""#ANCHOR_CUSTOM_FIELD926040 > textarea[cols=\""\\35 0\""][rows=\""\\31 0\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<textarea class=""pagecontents"" cols=""50"" rows=""10"" name=""CUSTOM_FIELD_RESPONSE_ID1493482"" onblur=""textLimit(document.forms[0].CUSTOM_FIELD_RESPONSE_ID1493482, 40000);"" onchange=""setField('CF_ID_DIRTY_FL_926040','Y'); ""></textarea>","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"select-name","Ensures select element has an accessible name","Select element must have an accessible name","https://dequeuniversity.com/rules/axe/4.3/select-name?application=AxeChrome","critical","No","No","","[""select[name=\""CUSTOM_FIELD_RESPONSE_ID555189\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<select class=""pagecontents"" name=""CUSTOM_FIELD_RESPONSE_ID555189"" onchange=""setField('CF_ID_DIRTY_FL_555189','Y'); ""><option value="""">Select...</option><option value=""979665"">Yes</option><option value=""979666"">No</option></select>","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav:nth-child(2) > li > a[target=\""_blank\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/solutions/scholarone/"" hidefocus=""true"" style=""outline: none;"">ScholarOne Manuscripts™</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#\\39 4111411""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a on="""" click=""handleContainerLight();"" id=""94111411"" data-toggle=""dropdown"" class=""dropdown-toggle nav-link"" href=""#"" hidefocus=""true"" border=""0"" style=""outline: none;"">				
+				
+				smith choi&nbsp;<img align=""absmiddle"" src=""/images/common/white_arrow.gif"" border=""0"">
+			</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(4) > a""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a hidefocus=""true"" style=""outline: none;"" href=""javascript:popWindowSimple('dvg-wiley?PARAMS=xik_4VsRmUUyJL3unpqpqSwwjL2Dmu75JS4Ud5RNSsmkw3PKuoXcA4Gocayc8mSk7zJBJKRMxSBqP5MeGWwQjuoAKgg4HFJrn3oSDccQwtt9Z5YcDPGh3iwjn3FdXK6RJNTTN7xqhcJ6Mv4J9E7v1vJRSxfgzcTnSQ7nTAdF2TxqXRGzuqeLkbSDaYJXLdgeEgjYuZ8GLefDbNcDpnjH6Z175nZGzkB','forms_instructions_popup', 700, 400);"">","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(5) > a[target=\""_blank\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/support/scholarone-manuscripts/"" hidefocus=""true"" style=""outline: none;"">Help</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(6) > a""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a href=""javascript:setField('XIK_PREACT', 'xik_A1VsCzujykPW5dkumJdtD3pw3GpPRZC3g26zHzdUMzYb');  
+	    setNextPage('LOGIN');"" hidefocus=""true"" style=""outline: none;"">
+	
+
+Log Out</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#selected_option""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<button value=""0"" id=""selected_option"" name=""0"" type=""button"" data-toggle=""dropdown"" class=""btn dropdown-toggle"" hidefocus=""true"" style=""outline: none;"">
+            			Manuscript ID  <span class=""fa fa-caret-down""></span> 
+            	</button>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#btn_search""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<button id=""btn_search"" type=""button"" class=""btn"" hidefocus=""true"" style=""outline: none;"" onclick=""quickSearch();"">
+            		<i class=""fa fa-search""></i>Search
+            	</button>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#previewButton""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a id=""previewButton"" href=""#PreviewModal"" class=""preview-cover-letter btn btn-small"" data-toggle=""modal"" hidefocus=""true"" style=""outline: none;"">Preview
+        </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".special-chars-button""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""btn btn-small special-chars-button"" hidefocus=""true"" style=""outline: none;""><strong>Ω</strong> Special Characters</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".special-chars-button > strong""]","Fix any of the following:
+  Element content is too short to determine if it is actual text content","<strong>Ω</strong>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#countAUTHOR_COMMENTS""]","Fix any of the following:
+  Element content is too short to determine if it is actual text content","<span id=""countAUTHOR_COMMENTS"">0</span>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""label[for=\""FILE_TO_UPLOAD_0\""] > span""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<span>1. Select File</span>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#btnUpload""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a name=""upload_button"" class=""btn"" id=""btnUpload"" hidefocus=""true"" style=""outline: none;"">
+            <i class=""fa fa-upload""></i>
+            2. Attach File
+          </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#addFunderBtn""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a id=""addFunderBtn"" style=""outline: none;"" hidefocus=""true"" class=""btn pull-left"" href=""#FunderInfoAddEditModal"" data-toggle=""modal"">
+              Add Funder
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#btnPrev""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a id=""btnPrev"" style=""outline: none;"" hidefocus=""true"" class=""btn pull-left"" href=""javascript:setNextPage('AUTHOR_REVIEWERS')""><i class=""fa fa-chevron-left""></i> Previous Step</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".btn-save-page.pull-right.btn""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a id=""btnSave"" style=""outline: none; margin-right: 10px;"" hidefocus=""true"" class=""btn pull-right btn-save-page"">Save</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".span11 > p:nth-child(1)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<p>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""p:nth-child(1) > .footerlink[target=\""new\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/legal/copyright/"" target=""new"" hidefocus=""true"" style=""outline: none;"">
+            ©&nbsp;Clarivate Analytics</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".ca_copyright""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<span class=""ca_copyright"">
+
+	        ©&nbsp;ScholarOne, Inc., 2021.
+          </span>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(5)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/7257767"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">#7,257,767</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(6)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/7263655"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">#7,263,655</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".span11 > p:nth-child(2)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<p>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""p:nth-child(2) > .footerlink[target=\""new\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://www.twitter.com/ScholarOneNews"" target=""new"" hidefocus=""true"" style=""outline: none;"">
+                <i class=""icon-twitter"" style=""color:#FFFFFF;""></i>&nbsp;@ScholarOneNews
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(2)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""dvg-wiley?PARAMS=xik_7KS8mrDyuk4pEbaWSL4oUY7nyr59jWfnC1zL3V3cUmSHSfwGDEWhpmtgCzvU4Q8yAV7uHUGg8fCmiKFpFoVzDbRThvFK12WMrQoLww6sLgPahW8hm1i5TWJvcGoGo7H4YUuNiYoxLW7Q6rbVC76pieHTvXG2by8h5J3XhiFAbfm7hacoLyFi7MkymMZqRFdtF8R4V"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(3)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/clarivate-analytics-scholarone-privacy-notice/"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">
+                <i class=""icon-key"" style=""color:#FFFFFF;""></i>&nbsp;Privacy Statement
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(4)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/legal/terms-of-use/"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">
+                <i class=""icon-legal"" style=""color:#FFFFFF;""></i>&nbsp;Terms of Use
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"heading-order","Ensures the order of headings is semantically correct","Heading levels should only increase by one","https://dequeuniversity.com/rules/axe/4.3/heading-order?application=AxeChrome","moderate","No","No","","[""fieldset:nth-child(15) > div > h3""]","Fix any of the following:
+  Heading order invalid","<h3>
+    
+      <span class=""required"">* 
+    
+      </span>Cover Letter
+    </h3>","cat.semantics,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"landmark-one-main","Ensures the document has a main landmark","Document should have one main landmark","https://dequeuniversity.com/rules/axe/4.3/landmark-one-main?application=AxeChrome","moderate","No","No","","[""html""]","Fix all of the following:
+  Document does not have a main landmark","<html class=""x-strict"">","cat.semantics,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#top-header-line > .nav:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<ul class=""nav"">
+
+	<li>
+	
+		<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/solutions/scholarone/"" hidefocus=""true"" style=""outline: none;"">ScholarOne Manuscripts™</a>
+	</li>
+
+</ul>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#\\39 4111411""]","Fix any of the following:
+  Some page content is not contained by landmarks","<a on="""" click=""handleContainerLight();"" id=""94111411"" data-toggle=""dropdown"" class=""dropdown-toggle nav-link"" href=""#"" hidefocus=""true"" border=""0"" style=""outline: none;"">				
+				
+				smith choi&nbsp;<img align=""absmiddle"" src=""/images/common/white_arrow.gif"" border=""0"">
+			</a>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav-link:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav-link:nth-child(5)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">
+	
+	 	<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/support/scholarone-manuscripts/"" hidefocus=""true"" style=""outline: none;"">Help</a>
+	 </li>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav-link:nth-child(6)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">
+
+	<a href=""javascript:setField('XIK_PREACT', 'xik_A1VsCzujykPW5dkumJdtD3pw3GpPRZC3g26zHzdUMzYb');  
+	    setNextPage('LOGIN');"" hidefocus=""true"" style=""outline: none;"">
+	
+
+Log Out</a>
+</li>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".logoBar""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""hidden-phone hidden-tablet logoBar logoBarBcg-default"">
+		<div class=""container"">
+			<a hidefocus=""true"" style=""outline: none; float: left;"">
+			
+         <img src=""/societyimages/dvg-wiley/DVG_Banner_mc_en_US.jpg"" border=""0"">
+      		    				
+			</a>
+				
+	 	</div>
+	</div>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".toplvlnav""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""nav-collapse toplvlnav"" style=""height: 100%;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#breadcrumbs-container""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div id=""breadcrumbs-container"" class=""navbar nav-collapse collapse breadcrumbnav"" style=""z-index:0;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#selected_option""]","Fix any of the following:
+  Some page content is not contained by landmarks","<button value=""0"" id=""selected_option"" name=""0"" type=""button"" data-toggle=""dropdown"" class=""btn dropdown-toggle"" hidefocus=""true"" style=""outline: none;"">
+            			Manuscript ID  <span class=""fa fa-caret-down""></span> 
+            	</button>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".input-append""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""input-append"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#stepsSectionDIV""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""span3 bs-docs-sidebar"" id=""stepsSectionDIV"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""h1""]","Fix any of the following:
+  Some page content is not contained by landmarks","<h1>Step 6: Details &amp; Comments</h1>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#briefText""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div id=""briefText"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#contentSectionDIV > p""]","Fix any of the following:
+  Some page content is not contained by landmarks","<p><span class=""required"">* </span> = Required Fields</p>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""fieldset:nth-child(15) > div > h3""]","Fix any of the following:
+  Some page content is not contained by landmarks","<h3>
+    
+      <span class=""required"">* 
+    
+      </span>Cover Letter
+    </h3>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#authorCommentsSection > div:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div>
+      <h4>Write Cover Letter</h4>
+    </div>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#authorCommentsSection > div:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#authorCommentsSection > .row-fluid""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""row-fluid"">
+      <span class=""label charcount"" id=""countdisplayAUTHOR_COMMENTS"">
+      
+    <span id=""countAUTHOR_COMMENTS"">0</span> out of 32768 characters
+       
+      </span> 
+    </div>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#authorComments""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div id=""authorComments"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""fieldset:nth-child(15) > div > div:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div>
+      <h4>Upload Cover Letter</h4>
+    </div>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".span5:nth-child(1) > .btn""]","Fix any of the following:
+  Some page content is not contained by landmarks","<span style=""border:0;padding:0;"" class=""btn"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".span5:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""span5"">
+        <p>
+          <a name=""upload_button"" class=""btn"" id=""btnUpload"" hidefocus=""true"" style=""outline: none;"">
+            <i class=""fa fa-upload""></i>
+            2. Attach File
+          </a>
+        </p>
+      </div>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""fieldset:nth-child(23) > h3""]","Fix any of the following:
+  Some page content is not contained by landmarks","<h3>Funding</h3>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""fieldset:nth-child(23) > h4""]","Fix any of the following:
+  Some page content is not contained by landmarks","<h4>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""fieldset:nth-child(23) > div:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div style=""padding-left:15px; margin-bottom:15px;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".h4special""]","Fix any of the following:
+  Some page content is not contained by landmarks","<h4 class=""h4special"">Funders</h4>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#fundersTbl""]","Fix any of the following:
+  Some page content is not contained by landmarks","<table id=""fundersTbl"" class=""table table-striped rt cf"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".row-fluid > .row-fluid""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""row-fluid"">
+            <a id=""addFunderBtn"" style=""outline: none;"" hidefocus=""true"" class=""btn pull-left"" href=""#FunderInfoAddEditModal"" data-toggle=""modal"">
+              Add Funder
+            </a>
+           </div>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(1) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""headercells"" align=""Left"" width=""100%"" colspan=""2""><span class=""pagecontents""><b>Manuscript Details - Metadata</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(1) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""secondaryheader"" align=""Left"" width=""100%"" colspan=""2""><span class=""pagecontents""><b>Content Information</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(1) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(3) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%""><span class=""pagecontents"">Total number of figures (use 0 for none): </span> </td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161219\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161219"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51941','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(1) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(4) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%""><span class=""pagecontents"">Number of manuscript pages (use 0 for none): </span> </td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161216\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161216"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51938','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(1) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(5)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""secondaryheader"" align=""Left"" width=""100%"" colspan=""2""><span class=""pagecontents""><b>Illustration Information</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(1) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(6) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%""><span class=""pagecontents"">Number of color figures (use 0 for none): </span> </td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161281\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161281"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51967','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(1) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(7) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%""><span class=""pagecontents"">Total number of figures (use 0 for none): </span> </td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID161280\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID161280"" value="""" onchange=""setField('CF_ID_DIRTY_FL_51966','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(3) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""headercells"" align=""Left"" width=""100%"" colspan=""2""><span class=""pagecontents""><b>Policy Responses - Marking a checkbox registers as an affirmative response.</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(3) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(2) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID51971\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID51971"" value=""161282"" onclick=""setField('CF_ID_DIRTY_FL_51971','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(3) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(3) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID435404\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID435404"" value=""814139"" onclick=""setField('CF_ID_DIRTY_FL_435404','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(5) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""headercells"" align=""Left"" width=""100%"" colspan=""2""><span class=""pagecontents""><b>Submission Information - Confirm the following:</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > .dataentry[width=\""\\39 5\\%\""][align=\""Left\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""95%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID51973\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID51973"" value=""161283"" onclick=""setField('CF_ID_DIRTY_FL_51973','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(3) > .dataentry[width=\""\\39 5\\%\""][align=\""Left\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""95%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID410548\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID410548"" value=""777116"" onclick=""setField('CF_ID_DIRTY_FL_410548','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(4) > .dataentry[width=\""\\39 5\\%\""][align=\""Left\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""95%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID51974\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""checkbox"" name=""CUSTOM_FIELD_RESPONSE_ID51974"" value=""161284"" onclick=""setField('CF_ID_DIRTY_FL_51974','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(7) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\34 97946\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID212642"" value=""497946"" onclick=""setField('CF_ID_DIRTY_FL_212642','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""] > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD212642\""] > .pagecontents""]","Fix any of the following:
+  Some page content is not contained by landmarks","<span class=""pagecontents"">Yes</span>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(7) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(9) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""headercells"" align=""Left"" width=""100%""><span class=""pagecontents""><b>Conflict of Interest:</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(9) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(9) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\37 21007\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID370770"" value=""721007"" onclick=""setField('CF_ID_DIRTY_FL_370770','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(4) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""] > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD370770\""] > .pagecontents""]","Fix any of the following:
+  Some page content is not contained by landmarks","<span class=""pagecontents"">Yes</span>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(9) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(5)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(9) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(6)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""alternatetablecolor"" align=""Left"" width=""100%""><span class=""pagecontents"">If yes, confirm that you have stated this conflict of interest in the Acknowledgments section of your manuscript. </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\37 21009\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID370771"" value=""721009"" onclick=""setField('CF_ID_DIRTY_FL_370771','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(7) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""] > .pagecontents > p[name=\""ANCHOR_CUSTOM_FIELD370771\""] > .pagecontents""]","Fix any of the following:
+  Some page content is not contained by landmarks","<span class=""pagecontents"">Yes</span>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(9) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(8)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(9)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""secondaryheader"" align=""Left"" width=""100%""><span class=""pagecontents"">Provide details and include this information in the cover letter above. </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""textarea[name=\""CUSTOM_FIELD_RESPONSE_ID721011\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<textarea class=""pagecontents"" cols=""50"" rows=""10"" name=""CUSTOM_FIELD_RESPONSE_ID721011"" onblur=""textLimit(document.forms[0].CUSTOM_FIELD_RESPONSE_ID721011, 40000);"" onchange=""setField('CF_ID_DIRTY_FL_370772','Y'); ""></textarea>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(2) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\38 14058\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435377"" value=""814058"" onclick=""setField('CF_ID_DIRTY_FL_435377','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(3) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\38 14061\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435378"" value=""814061"" onclick=""setField('CF_ID_DIRTY_FL_435378','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(3) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(3) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(4) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\38 14064\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435379"" value=""814064"" onclick=""setField('CF_ID_DIRTY_FL_435379','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(4) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(4) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(5) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\38 14067\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435380"" value=""814067"" onclick=""setField('CF_ID_DIRTY_FL_435380','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(5) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(5) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(6) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\38 14070\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435381"" value=""814070"" onclick=""setField('CF_ID_DIRTY_FL_435381','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(6) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(6) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(7) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\38 14073\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435382"" value=""814073"" onclick=""setField('CF_ID_DIRTY_FL_435382','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(7) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(7) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(11) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(8) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[value=\""\\38 14076\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input type=""radio"" name=""CUSTOM_FIELD_RESPONSE_ID435383"" value=""814076"" onclick=""setField('CF_ID_DIRTY_FL_435383','Y'); "" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(8) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(8) > .dataentry[width=\""\\31 \\%\""][align=\""Center\""]:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Center"" width=""1%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(13) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""headercells"" align=""Left"" width=""100%"" colspan=""2""><span class=""pagecontents""><b>Special Issue</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(13) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(2) > .dataentry[align=\""Left\""][width=\""\\31 00\\%\""]:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td class=""dataentry"" align=""Left"" width=""100%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""select[name=\""CUSTOM_FIELD_RESPONSE_ID555189\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<select class=""pagecontents"" name=""CUSTOM_FIELD_RESPONSE_ID555189"" onchange=""setField('CF_ID_DIRTY_FL_555189','Y'); ""><option value="""">Select...</option><option value=""979665"">Yes</option><option value=""979666"">No</option></select>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(13) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""dataentry"" align=""Left"" width=""100%"" colspan=""2""><span class=""pagecontents"">If yes, please enter the special issue title. </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""CUSTOM_FIELD_RESPONSE_ID979664\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input class=""pagecontents"" type=""text"" name=""CUSTOM_FIELD_RESPONSE_ID979664"" value="""" onchange=""setField('CF_ID_DIRTY_FL_555188','Y'); "" size=""50"" maxlength=""4096"" hidefocus=""true"" style=""outline: none;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(15) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr><td class=""headercells"" align=""Left"" width=""100%""><span class=""pagecontents""><b>Data Availability Statement</b> </span> </td>
+</tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\35 \""][align=\""left\""][cellpadding=\""\\30 \""]:nth-child(15) > tbody > tr > .tablelines > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][border=\""\\30 \""] > tbody > tr:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#ANCHOR_CUSTOM_FIELD926040 > textarea[cols=\""\\35 0\""][rows=\""\\31 0\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<textarea class=""pagecontents"" cols=""50"" rows=""10"" name=""CUSTOM_FIELD_RESPONSE_ID1493482"" onblur=""textLimit(document.forms[0].CUSTOM_FIELD_RESPONSE_ID1493482, 40000);"" onchange=""setField('CF_ID_DIRTY_FL_926040','Y'); ""></textarea>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".visible-desktop.row-fluid""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""row-fluid visible-desktop"" style=""padding-top:20px"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/dvg-wiley","","2021-12-06T15:45:55.367Z"

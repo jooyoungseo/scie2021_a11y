@@ -1,0 +1,9 @@
+Procedure,Impact,n,%
+signup,moderate,971,51%
+signup,critical,690,36%
+signup,serious,236,12%
+signup,minor,1,0%
+submission,moderate,1589,54%
+submission,serious,669,23%
+submission,critical,343,12%
+submission,minor,316,11%

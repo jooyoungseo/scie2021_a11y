@@ -1,0 +1,51 @@
+
+## Heat Map
+
+### Basic Heat Map Using Cross-Count Frequency
+
+Figure\ \@ref(fig:heatmap) illustrates the the frequency heatmap acrossing `r IVdesc` and `r DVdesc`.
+
+```{r heatmap, echo=F, fig.cap="Frequency heat map visualization."}
+# Creating table
+#t <- table(DV, IV)
+
+# Heatmap visualization
+heatmap(t, 
+          col=colorRampPalette(c('white', 'green'))(100),
+          scale='none', Rowv=NA, Colv=NA, cexRow=1.5, cexCol=1.5)
+```
+
+### Heat Map Using Marginal Row Table
+
+Figure\ \@ref(fig:heatmapRow) illustrates the heat map based on marginal rows.
+
+This indicates the difference found within each of `r IVdesc` levels depending on levels of `r DVdesc`.
+
+```{r heatmapRow, echo=F, dev.args = list(bg = 'white'), fig.cap="Heat map visualization based on row margins."}
+# 100percentage based on rows
+tRow <- prop.table(t, 1)
+
+heatmap(tRow, 
+          col=colorRampPalette(c('white', 'red'))(100),
+          scale='none', Rowv=NA, Colv=NA, cexRow=1.5, cexCol=1.5)
+```
+
+### Heat Map Using Marginal Column Table (recommended)
+
+Figure\ \@ref(fig:heatmapCol) illustrates the heat map based on marginal columns.
+
+This indicates the difference found within each of `r DVdesc` levels depending on levels of `r IVdesc`.
+
+```{r heatmapCol, echo=F, dev.args = list(bg = 'white'), fig.cap="Heat map visualization based on column margins."}
+# 100percentage based on columns
+tCol <- prop.table(t, 2)
+
+#heatmap(tCol, 
+#          col=colorRampPalette(c('white', 'dodgerblue'))(100),
+#          scale='none', Rowv=NA, Colv=NA, cexRow=1.5, cexCol=1.5)
+
+library(pheatmap)
+pheatmap(tCol, display_numbers = T, color = colorRampPalette(c('white', 'red'))(100), cluster_rows = F, cluster_cols = F, fontsize_number = 15)
+```
+
+  

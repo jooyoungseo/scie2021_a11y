@@ -1,0 +1,660 @@
+"Rule ID","Description","Help","Help URL","Impact","Manual","Needs Review","IGT","Selector","Summary","Source Code","Tags","Found By","Test Title","Test URL","Share URL","Created At"
+"duplicate-id-active","Ensures every id attribute value of active elements is unique","IDs of active elements must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id-active?application=AxeChrome","serious","No","No","","[""input[value=\""\\31 \""]""]","Fix any of the following:
+  Document has active elements with the same id attribute: COLLECT_EMAIL_OPT","<input type=""radio"" value=""1"" name=""COLLECT_EMAIL_OPT"" id=""COLLECT_EMAIL_OPT"">","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"html-has-lang","Ensures every HTML document has a lang attribute","<html> element must have a lang attribute","https://dequeuniversity.com/rules/axe/4.3/html-has-lang?application=AxeChrome","serious","No","No","","[""html""]","Fix any of the following:
+  The <html> element does not have a lang attribute","<html>","cat.language,wcag2a,wcag311,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""a[hidefocus=\""true\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/societyimages/nsq/mc_nsq_en_en_US.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","["".container > a:nth-child(2) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img style=""padding-top:5%;padding-bottom:5%;"" src=""/images/en_US/layout/scholarone_manuscripts_logo_sage.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""img[height=\""\\35 7\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/page_headers/createaccount_header.gif"" height=""57"" width=""80"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(1) > td > table[cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td[valign=\""TOP\""]:nth-child(1) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/layout/steps/1_unvisited_done.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(2) > .incompletestep[align=\""LEFT\""][valign=\""TOP\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/layout/steps/spacer.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(3) > td > table[cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td[valign=\""TOP\""]:nth-child(1) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/layout/steps/2_unvisited_done.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(4) > .incompletestep[align=\""LEFT\""][valign=\""TOP\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/layout/steps/spacer.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(5) > td > table[cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td[valign=\""TOP\""]:nth-child(1) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/layout/steps/3_data_on.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(1) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(2) > a > img[name=\""previous_button\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/previous.gif"" border=""0"" name=""previous_button"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(1) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(3) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""] > img[name=\""next_button\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/finish.gif"" border=""0"" name=""next_button"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(1) > td:nth-child(3) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(2) > td:nth-child(3) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(3) > td:nth-child(3) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""img[align=\""CENTER\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/special_characters.gif"" border=""0"" align=""CENTER"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(1) > td:nth-child(1) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(1) > td:nth-child(4) > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/clear.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(2) > td:nth-child(1) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(2) > td:nth-child(4) > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/clear.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(3) > td:nth-child(1) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(3) > td:nth-child(4) > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/clear.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(4) > td:nth-child(1) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required-blank.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(4) > td:nth-child(4) > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/clear.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(5) > td:nth-child(1) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required-blank.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(5) > td:nth-child(4) > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/clear.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""p > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""table[align=\""center\""][cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td:nth-child(3) > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/common/buttons/calendar.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""td:nth-child(7) > a > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/common/buttons/calendar.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""a[target=\""TCNEW1\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/common/icons/Icon-external-link.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""a[target=\""TCNEW3\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/common/icons/Icon-external-link.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""td[width=\""\\31 \\%\""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/icons/required.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(3) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(2) > a > img[name=\""previous_button\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/previous.gif"" border=""0"" name=""previous_button"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""tr:nth-child(3) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(3) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""] > img[name=\""next_button\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/images/en_US/buttons/finish.gif"" border=""0"" name=""next_button"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""#USERID_EDIT""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""TEXT"" name=""USERID_EDIT"" id=""USERID_EDIT"" value=""smithchoi0123@gmail.com"" maxlength=""128"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""PASSWORD_EDIT\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""PASSWORD"" name=""PASSWORD_EDIT"" value="""" maxlength=""30"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""PASSWORD_CONFIRM\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""PASSWORD"" name=""PASSWORD_CONFIRM"" value="""" maxlength=""30"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""ATTRIBUTE_NAME7929_0\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_0"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""ATTRIBUTE_NAME7929_1\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_1"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""ATTRIBUTE_NAME7929_2\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_2"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""ATTRIBUTE_NAME7929_3\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_3"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""ATTRIBUTE_NAME7929_4\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_4"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\31 \""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" value=""1"" name=""COLLECT_EMAIL_OPT"" id=""COLLECT_EMAIL_OPT"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[value=\""\\30 \""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""radio"" value=""0"" name=""COLLECT_EMAIL_OPT"" id=""COLLECT_EMAIL_OPT"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""REV_OPT_IN_OUT\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" name=""REV_OPT_IN_OUT"" value=""Y"" checked="""">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""EXTERNAL_USER_ID\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input disabled=""true"" class=""pagecontents"" type=""text"" name=""EXTERNAL_USER_ID"" value="""" maxlength=""50"" size=""20"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""USER_START_UNAVAIL\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""TEXT"" onblur=""javascript:isDate(this, 'dd-MMM-yyyy');"" size=""12"" maxlength=""11"" name=""USER_START_UNAVAIL"" value="""">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[name=\""USER_END_UNAVAIL\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input class=""pagecontents"" type=""TEXT"" onblur=""javascript:isDate(this, 'dd-MMM-yyyy');"" size=""12"" maxlength=""11"" name=""USER_END_UNAVAIL"" value="""">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""input[size=\""\\35 5\""]""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""text"" class=""pagecontents"" size=""55"" name=""UNAVAIL_REASON"" value="""">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""textarea""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<textarea class=""pagecontents"" rows=""6"" cols=""70"" name=""SIGNATURE""></textarea>","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""#TC_AGREED""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input type=""checkbox"" value=""Y"" name=""TC_AGREED"" id=""TC_AGREED"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(1) > td > table[cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td[valign=\""TOP\""]:nth-child(1) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:setDataAndNextPage('SAVE_PERSON_FL','Y','CREATE_ACCOUNT_1')"" onclick=""return checkUploadFields();""><img src=""/images/en_US/layout/steps/1_unvisited_done.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(3) > td > table[cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td[valign=\""TOP\""]:nth-child(1) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:setDataAndNextPage('SAVE_PERSON_FL','Y','CREATE_ACCOUNT_2')"" onclick=""return checkUploadFields();""><img src=""/images/en_US/layout/steps/2_unvisited_done.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(5) > td > table[cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td[valign=\""TOP\""]:nth-child(1) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:setDataAndNextPage('SAVE_PERSON_FL','Y','CREATE_ACCOUNT_3')"" onclick=""return checkUploadFields();""><img src=""/images/en_US/layout/steps/3_data_on.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(1) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(2) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:setDataAndNextPage('SAVE_PERSON_FL','Y','CREATE_ACCOUNT_2')"" onclick=""if (isok(self.form)==0) {return false}else{return checkUploadFields()};""><img src=""/images/en_US/buttons/previous.gif"" border=""0"" name=""previous_button""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(1) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(3) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:setDataAndNextPage('ACCOUNT_FINISHED','TRUE','CREATE_ACCOUNT_4')"" onclick=""return checkUploadFields();""><img src=""/images/en_US/buttons/finish.gif"" border=""0"" name=""next_button""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","["".headercells[align=\""RIGHT\""] > a[href=\""\\#\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""#"" onclick="" var x1=popWindow('nsq\x3FPARAMS\x3Dxik_6AN2m28wtoQaPbhFMrg6Zqx511okKWUEb4mxKXxQAiBz1YrXhvKhECgsVKk62cFNSqWvkUzrMPyjHjSHWFzcV9SUnuujdnRg8uKE8yccB1e5w1WdJhxp1MTghfJsJ56HRY4CvFmXqtuXn9m8w9mWrd8GmHn2n1JyzWkn1HxZrAVTkYgns3JjymGkGddf8FBXp7eaaQ5Zrq8TMXDyBESR5o4eCj1','sp_char_palette', 450, 520); if (lastField1 != null) { lastField1.focus(); } x1.focus(); return false;"">","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(1) > td:nth-child(4) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:clearTextField('7929_0')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(2) > td:nth-child(4) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:clearTextField('7929_1')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(3) > td:nth-child(4) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:clearTextField('7929_2')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(4) > td:nth-child(4) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:clearTextField('7929_3')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(5) > td:nth-child(4) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:clearTextField('7929_4')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""table[align=\""center\""][cellpadding=\""\\30 \""][cellspacing=\""\\30 \""] > tbody > tr > td:nth-child(3) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:dropdownOff('','USER_START_UNAVAIL');dropdownOn(0,'USER_START_UNAVAIL');""><img src=""/images/common/buttons/calendar.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""td:nth-child(7) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:dropdownOff('','USER_END_UNAVAIL');dropdownOn(0,'USER_END_UNAVAIL');""><img src=""/images/common/buttons/calendar.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""a[target=\""TCNEW1\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""http://uk.sagepub.com/en-gb/eur/privacy-policy"" target=""TCNEW1""><img src=""/images/common/icons/Icon-external-link.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""a[target=\""TCNEW3\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""http://clarivate.com/clarivate-analytics-scholarone-privacy-notice/"" target=""TCNEW3""><img src=""/images/common/icons/Icon-external-link.gif"" border=""0""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(3) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(2) > a""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:setDataAndNextPage('SAVE_PERSON_FL','Y','CREATE_ACCOUNT_2')"" onclick=""if (isok(self.form)==0) {return false}else{return checkUploadFields()};""><img src=""/images/en_US/buttons/previous.gif"" border=""0"" name=""previous_button""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"link-name","Ensures links have discernible text","Links must have discernible text","https://dequeuniversity.com/rules/axe/4.3/link-name?application=AxeChrome","serious","No","No","","[""tr:nth-child(3) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(3) > a[onclick=\""return\\ checkUploadFields\\(\\)\\;\""]""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute","<a href=""javascript:setDataAndNextPage('ACCOUNT_FINISHED','TRUE','CREATE_ACCOUNT_4')"" onclick=""return checkUploadFields();""><img src=""/images/en_US/buttons/finish.gif"" border=""0"" name=""next_button""></a>","cat.name-role-value,wcag2a,wcag412,wcag244,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"bypass","Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content","Page must have means to bypass repeated blocks","https://dequeuniversity.com/rules/axe/4.3/bypass?application=AxeChrome",,"No","Yes","","[""html""]","Fix any of the following:
+  No valid skip link found
+  Page does not have a heading
+  Page does not have a landmark region","<html>","cat.keyboard,wcag2a,wcag241,section508,section508.22.o","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""ul:nth-child(2) > li > a[target=\""_blank\""][hidefocus=\""true\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/solutions/scholarone/"" hidefocus=""true"" style=""outline: medium none;"">ScholarOne Manuscripts™</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(2) > a[hidefocus=\""true\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a hidefocus=""true"" style=""outline: medium none;"" href=""javascript:popWindowSimple('nsq?PARAMS=xik_7KNYzii8cZ75dJKAPcBiLFdPcew3UADV8qXap43GF4Mvus8aDfq9ZoVZpcv4dEhsQciwnJnSaMFCtVCeLRmsHGucxhvYqrHS6qbVfy1wwFN5hAqHZKVpdM4SQHubj3pcgtD71BRY2SfQBVTntp81A3WHtKBnjt1PWPoxfdxh8j5U5iBznwrueUQ7r3ud7z78nCqyK','forms_instructions_popup', 700, 400);"">","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(3) > a[target=\""_blank\""][hidefocus=\""true\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/support/scholarone-manuscripts/"" hidefocus=""true"" style=""outline: medium none;"">Help</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#headerBredcrumbsLoginLink""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a href=""javascript:setNextPage('SAGE_LOGIN')"" id=""headerBredcrumbsLoginLink"" hidefocus=""true"" style=""outline: medium none;"" onclick=""return true;"">Log In</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#headerResetPassword""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a id=""headerResetPassword"" href=""javascript:setNextPage('RESET_PASSWORD')"" hidefocus=""true"" style=""outline: medium none;"" onclick=""return true;"">Reset Password</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".span11 > p:nth-child(1)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<p>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""p:nth-child(1) > .footerlink[target=\""new\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/legal/copyright/"" target=""new"">
+            ©&nbsp;Clarivate Analytics</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".ca_copyright""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<span class=""ca_copyright"">
+
+	        ©&nbsp;ScholarOne, Inc., 2021.
+          </span>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(5)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/7257767"" target=""_blank"">#7,257,767</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(6)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/7263655"" target=""_blank"">#7,263,655</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""p:nth-child(2)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<p>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""p:nth-child(2) > .footerlink[target=\""new\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://www.twitter.com/ScholarOneNews"" target=""new"">
+                <i class=""icon-twitter"" style=""color:#FFFFFF;""></i>&nbsp;@ScholarOneNews
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(2)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""nsq?PARAMS=xik_E9ZCuU9RnX3Fm9tso9KH5CAPxtoquZSrPfjsYYdpZZebHmPuEhwbrS88uwMgv6n6KVUHHCY5n2gSK628n3yDq1aWquPrgyq6DctmTcb45BiZodgZVgxUky1jissgcDKCRKNNX6kLWZSWv8UaYTNADxGjXQAyT4DvY9YQEB9doPusW9Dp51eQ4HqvXoa3EjdBM1SbY"" target=""_blank"">","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(3)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/clarivate-analytics-scholarone-privacy-notice/"" target=""_blank"">
+                <i class=""icon-key"" style=""color:#FFFFFF;""></i>&nbsp;Privacy Statement
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(4)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/legal/terms-of-use/"" target=""_blank"">
+                <i class=""icon-legal"" style=""color:#FFFFFF;""></i>&nbsp;Terms of Use
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"landmark-one-main","Ensures the document has a main landmark","Document should have one main landmark","https://dequeuniversity.com/rules/axe/4.3/landmark-one-main?application=AxeChrome","moderate","No","No","","[""html""]","Fix all of the following:
+  Document does not have a main landmark","<html>","cat.semantics,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"page-has-heading-one","Ensure that the page, or at least one of its frames contains a level-one heading","Page should contain a level-one heading","https://dequeuniversity.com/rules/axe/4.3/page-has-heading-one?application=AxeChrome","moderate","No","No","","[""html""]","Fix all of the following:
+  Page must have a level-one heading","<html>","cat.semantics,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""ul:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<ul class=""nav"">
+
+	<li>
+	
+		<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/solutions/scholarone/"" hidefocus=""true"" style=""outline: medium none;"">ScholarOne Manuscripts™</a>
+	</li>
+
+</ul>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav-link:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".pull-right > .nav-link:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">
+	
+	 	<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/support/scholarone-manuscripts/"" hidefocus=""true"" style=""outline: medium none;"">Help</a>
+	 </li>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".logoBar""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""hidden-phone hidden-tablet logoBar logoBarBcg-default"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#login-breadcrumbs""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div id=""login-breadcrumbs"" class=""navbar nav-collapse toplvlnav"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[width=\""\\37 60\""] > tbody > tr > td > table[cellpadding=\""\\35 \""][width=\""\\31 00\\%\""][cellspacing=\""\\30 \""] > tbody > tr:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""td[width=\""\\31 2\\%\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td valign=""TOP"" width=""12%"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(1) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td align=""RIGHT""><a href=""javascript:setDataAndNextPage('SAVE_PERSON_FL','Y','CREATE_ACCOUNT_2')"" onclick=""if (isok(self.form)==0) {return false}else{return checkUploadFields()};""><img src=""/images/en_US/buttons/previous.gif"" border=""0"" name=""previous_button""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(1) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td align=""RIGHT""><a href=""javascript:setDataAndNextPage('ACCOUNT_FINISHED','TRUE','CREATE_ACCOUNT_4')"" onclick=""return checkUploadFields();""><img src=""/images/en_US/buttons/finish.gif"" border=""0"" name=""next_button""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>
+          <td class=""headercells"" colspan=""3"">
+            <p class=""pagecontents"">
+
+              <b>User ID / Password for this site, not ORCID</b>
+
+            </p>
+          </td>
+        </tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > .dataentry[colspan=\""\\33 \""][valign=\""TOP\""] > table[cellpadding=\""\\33 \""][cellspacing=\""\\30 \""] > tbody > tr:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > td[align=\""RIGHT\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td align=""RIGHT"">
+                  <p class=""pagecontents"">
+                    Password:
+                  </p>
+                </td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""input[name=\""PASSWORD_EDIT\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<input class=""pagecontents"" type=""PASSWORD"" name=""PASSWORD_EDIT"" value="""" maxlength=""30"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellpadding=\""\\33 \""][cellspacing=\""\\30 \""] > tbody > tr:nth-child(2) > td:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td>
+                  <img src=""/images/en_US/icons/required.gif"">
+                  </td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellpadding=\""\\33 \""][cellspacing=\""\\30 \""] > tbody > tr:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""td[width=\""\\37 0\\%\""] > p""]","Fix any of the following:
+  Some page content is not contained by landmarks","<p class=""pagecontents""><b>Keywords</b></p>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".headercells[align=\""RIGHT\""] > a[href=\""\\#\""]""]","Fix any of the following:
+  Some page content is not contained by landmarks","<a href=""#"" onclick="" var x1=popWindow('nsq\x3FPARAMS\x3Dxik_6AN2m28wtoQaPbhFMrg6Zqx511okKWUEb4mxKXxQAiBz1YrXhvKhECgsVKk62cFNSqWvkUzrMPyjHjSHWFzcV9SUnuujdnRg8uKE8yccB1e5w1WdJhxp1MTghfJsJ56HRY4CvFmXqtuXn9m8w9mWrd8GmHn2n1JyzWkn1HxZrAVTkYgns3JjymGkGddf8FBXp7eaaQ5Zrq8TMXDyBESR5o4eCj1','sp_char_palette', 450, 520); if (lastField1 != null) { lastField1.focus(); } x1.focus(); return false;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(1) > td:nth-child(1) > img""]","Fix any of the following:
+  Some page content is not contained by landmarks","<img src=""/images/en_US/icons/required.gif"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(1) > td:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_0"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');""></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(1) > td:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><a href=""javascript:clearTextField('7929_0')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(2) > td:nth-child(1) > img""]","Fix any of the following:
+  Some page content is not contained by landmarks","<img src=""/images/en_US/icons/required.gif"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(2) > td:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_1"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');""></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(2) > td:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><a href=""javascript:clearTextField('7929_1')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(3) > td:nth-child(1) > img""]","Fix any of the following:
+  Some page content is not contained by landmarks","<img src=""/images/en_US/icons/required.gif"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(3) > td:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_2"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');""></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(3) > td:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><a href=""javascript:clearTextField('7929_2')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(4) > td:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><img src=""/images/en_US/icons/required-blank.gif""></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(4) > td:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_3"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');""></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(4) > td:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><a href=""javascript:clearTextField('7929_3')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""table[cellspacing=\""\\31 \""][cellpadding=\""\\30 \""] > tbody > tr:nth-child(5) > td:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><img src=""/images/en_US/icons/required-blank.gif""></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(5) > td:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><input class=""pagecontents"" style=""margin-left:5px"" oldvalue="""" type=""TEXT"" name=""ATTRIBUTE_NAME7929_4"" maxlength=""128"" value="""" onfocus=""javascript:setArea(this, 'Text');""></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(5) > td:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td><a href=""javascript:clearTextField('7929_4')""><img src=""/images/en_US/buttons/clear.gif"" border=""0""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(9)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(10)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>
+    <td class=""headercells"" colspan=""2"">
+      <p class=""pagecontents""><b>Do you wish to be invited for peer review?</b></p>
+    </td>
+  </tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(11)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(12)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>
+      <td class=""headercells"" colspan=""3"">
+      <p class=""pagecontents""><b>External IDs</b></p>
+      </td>
+    </tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(13)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(14)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>
+          <td class=""headercells"" colspan=""3"">
+
+            <p class=""pagecontents""><b>Unavailable Dates </b>
+            </p>
+
+          </td>
+        </tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(15)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(16)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>
+          <td class=""headercells"" colspan=""2"">
+            <p class=""pagecontents""><b>Signature</b>.
+            The journal can choose to use the text you enter in  this field in e-mail correspondence.
+            </p>
+          </td>
+        </tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(17) > .dataentry[colspan=\""\\32 \""]:nth-child(1)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td style="""" class=""dataentry"" colspan=""2"">
+            <textarea class=""pagecontents"" rows=""6"" cols=""70"" name=""SIGNATURE""></textarea>
+          </td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(18)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>
+          <td class=""headercells"" colspan=""3"">
+            <p class=""pagecontents""><b>Privacy Acknowledgement</b>
+            
+            </p>
+          </td>
+       </tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(19)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<tr>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(3) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td align=""RIGHT""><a href=""javascript:setDataAndNextPage('SAVE_PERSON_FL','Y','CREATE_ACCOUNT_2')"" onclick=""if (isok(self.form)==0) {return false}else{return checkUploadFields()};""><img src=""/images/en_US/buttons/previous.gif"" border=""0"" name=""previous_button""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""tr:nth-child(3) > td > table[cellspacing=\""\\35 \""][align=\""LEFT\""][width=\""\\31 00\\%\""] > tbody > tr > .tablelines[colspan=\""\\32 \""] > table[cellspacing=\""\\31 \""][cellpadding=\""\\35 \""][width=\""\\31 00\\%\""] > tbody > tr > .tablelightcolor > table[cellspacing=\""\\32 \""][align=\""RIGHT\""][cellpadding=\""\\30 \""] > tbody > tr > td[align=\""RIGHT\""]:nth-child(3)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<td align=""RIGHT""><a href=""javascript:setDataAndNextPage('ACCOUNT_FINISHED','TRUE','CREATE_ACCOUNT_4')"" onclick=""return checkUploadFields();""><img src=""/images/en_US/buttons/finish.gif"" border=""0"" name=""next_button""></a></td>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:32:18.428Z"

@@ -1,0 +1,50 @@
+This is an untitled chart with no subtitle or caption.
+The chart is comprised of 4 panels containing sub-charts, arranged horizontally.
+The panels represent different values of Impact.
+Each sub-chart has x-axis 'reorder_within(`Rule ID`, prop, `Rule ID`)'.
+Each sub-chart has y-axis 'prop'.
+In this chart fill is used to show Rule ID. The legend that would normally indicate this has been hidden.
+Panel 1 represents data for Impact = critical.
+In this panel, x-axis 'reorder_within(`Rule ID`, prop, `Rule ID`)' has labels button-name, duplicate-id-aria, image-alt, label and select-name.
+In this panel, y-axis 'prop' has labels 1%, 13%, 15%, 25% and 46%.
+Panel 1 is a bar chart with 5 vertical bars.
+Bar 1 is centered horizontally at label___label, and spans vertically from 0 to 46% with fill colour brilliant green which maps to Rule ID = label.
+Bar 2 is centered horizontally at image-alt___image-alt, and spans vertically from 0 to 25% with fill colour brilliant bluish green which maps to Rule ID = image-alt.
+Bar 3 is centered horizontally at select-name___select-name, and spans vertically from 0 to 15% with fill colour vivid greenish yellow which maps to Rule ID = select-name.
+Bar 4 is centered horizontally at button-name___button-name, and spans vertically from 0 to 13% with fill colour vivid purplish blue which maps to Rule ID = button-name.
+Bar 5 is centered horizontally at duplicate-id-aria___duplicate-id-aria, and spans vertically from 0 to 1% with fill colour moderate blue which maps to Rule ID = duplicate-id-aria.
+These are stacked, as sorted by Rule ID.
+Panel 2 represents data for Impact = minor.
+In this panel, x-axis 'reorder_within(`Rule ID`, prop, `Rule ID`)' has labels button-name, duplicate-id-aria, image-alt, label and select-name.
+In this panel, y-axis 'prop' has labels 1%, 13%, 15%, 25% and 46%.
+Panel 2 is a bar chart with 4 vertical bars.
+Bar 1 is centered horizontally at duplicate-id___duplicate-id, and spans vertically from 0 to 54% with fill colour strong violet which maps to Rule ID = duplicate-id.
+Bar 2 is centered horizontally at aria-allowed-role___aria-allowed-role, and spans vertically from 0 to 26% with fill colour very deep purple which maps to Rule ID = aria-allowed-role.
+Bar 3 is centered horizontally at presentation-role-conflict___presentation-role-conflict, and spans vertically from 0 to 20% with fill colour brilliant yellow green which maps to Rule ID = presentation-role-conflict.
+Bar 4 is centered horizontally at empty-heading___empty-heading, and spans vertically from 0 to 0% with fill colour strong greenish blue which maps to Rule ID = empty-heading.
+These are stacked, as sorted by Rule ID.
+Panel 3 represents data for Impact = moderate.
+In this panel, x-axis 'reorder_within(`Rule ID`, prop, `Rule ID`)' has labels button-name, duplicate-id-aria, image-alt, label and select-name.
+In this panel, y-axis 'prop' has labels 1%, 13%, 15%, 25% and 46%.
+Panel 3 is a bar chart with 4 vertical bars.
+Bar 1 is centered horizontally at region___region, and spans vertically from 0 to 80% with fill colour vivid greenish yellow which maps to Rule ID = region.
+Bar 2 is centered horizontally at landmark-one-main___landmark-one-main, and spans vertically from 0 to 10% with fill colour vivid yellowish green which maps to Rule ID = landmark-one-main.
+Bar 3 is centered horizontally at page-has-heading-one___page-has-heading-one, and spans vertically from 0 to 9% with fill colour vivid yellow green which maps to Rule ID = page-has-heading-one.
+Bar 4 is centered horizontally at heading-order___heading-order, and spans vertically from 0 to 1% with fill colour deep greenish blue which maps to Rule ID = heading-order.
+These are stacked, as sorted by Rule ID.
+Panel 4 represents data for Impact = serious.
+In this panel, x-axis 'reorder_within(`Rule ID`, prop, `Rule ID`)' has labels button-name, duplicate-id-aria, image-alt, label and select-name.
+In this panel, y-axis 'prop' has labels 1%, 13%, 15%, 25% and 46%.
+Panel 4 is a bar chart with 10 vertical bars.
+Bar 1 is centered horizontally at color-contrast___color-contrast, and spans vertically from 0 to 49% with fill colour vivid purplish blue which maps to Rule ID = color-contrast.
+Bar 2 is centered horizontally at frame-title___frame-title, and spans vertically from 0 to 18% with fill colour deep greenish blue which maps to Rule ID = frame-title.
+Bar 3 is centered horizontally at nested-interactive___nested-interactive, and spans vertically from 0 to 13% with fill colour vivid yellow green which maps to Rule ID = nested-interactive.
+Bar 4 is centered horizontally at html-has-lang___html-has-lang, and spans vertically from 0 to 7% with fill colour vivid bluish green which maps to Rule ID = html-has-lang.
+Bar 5 is centered horizontally at link-name___link-name, and spans vertically from 0 to 4% with fill colour vivid yellowish green which maps to Rule ID = link-name.
+Bar 6 is centered horizontally at listitem___listitem, and spans vertically from 0 to 4% with fill colour brilliant yellowish green which maps to Rule ID = listitem.
+Bar 7 is centered horizontally at duplicate-id-active___duplicate-id-active, and spans vertically from 0 to 3% with fill colour moderate blue which maps to Rule ID = duplicate-id-active.
+Bar 8 is centered horizontally at dlitem___dlitem, and spans vertically from 0 to 1% with fill colour vivid purplish blue which maps to Rule ID = dlitem.
+Bar 9 is centered horizontally at label-title-only___label-title-only, and spans vertically from 0 to 0% with fill colour brilliant green which maps to Rule ID = label-title-only.
+Bar 10 is centered horizontally at aria-hidden-focus___aria-hidden-focus, and spans vertically from 0 to 0% with fill colour deep purple which maps to Rule ID = aria-hidden-focus.
+These are stacked, as sorted by Rule ID.
+[1] " "

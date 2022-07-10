@@ -1,0 +1,153 @@
+"Rule ID","Description","Help","Help URL","Impact","Manual","Needs Review","IGT","Selector","Summary","Source Code","Tags","Found By","Test Title","Test URL","Share URL","Created At"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","["".nav-submenu:nth-child(4) > a""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href=""javascript:setDataAndNextPage('MS_LIST_TO_DISPLAY',17,'AUTHOR_VIEW_MANUSCRIPTS'); "" hidefocus=""true"" style=""outline: none;""> <i class=""fa fa-chevron-right""></i>&nbsp;5 Most Recent E-mails </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome","serious","No","No","","[""a[target=\""_new\""]""]","Fix any of the following:
+  Element has insufficient color contrast of 4.2 (foreground color: #0083bf, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1","<a href="" https://us.sagepub.com/en-us/nam/journal-author-gateway?utm_medium=referral&amp;utm_source=mc.manuscriptcentral.com&amp;utm_campaign=journalauthorgateway&amp;utm_content=sage-track-author-dashboard"" target=""_new"" hidefocus=""true"" style=""outline: none;"">Author Gateway</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","[""#FullTextModal > .modal-header > h3""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: FullTextModalLabel","<h3 id=""FullTextModalLabel"">Page Guidelines</h3>","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","["".close-modal-btn.clear-modal.pull-left""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: closeBtn","<a style=""outline: none;"" hidefocus=""true"" class=""btn pull-left close-modal-btn clear-modal"" data-dismiss=""modal"" id=""closeBtn""><i class=""fa fa-chevron-left""></i>&nbsp;Close Window</a>","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"duplicate-id","Ensures every id attribute value is unique","id attribute value must be unique","https://dequeuniversity.com/rules/axe/4.3/duplicate-id?application=AxeChrome","minor","No","No","","[""#submitFormModal > .modal-header > h3""]","Fix any of the following:
+  Document has multiple static elements with the same id attribute: myModalLabel","<h3 id=""myModalLabel"">Submit Completed Form</h3>","cat.parsing,wcag2a,wcag411","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"html-has-lang","Ensures every HTML document has a lang attribute","<html> element must have a lang attribute","https://dequeuniversity.com/rules/axe/4.3/html-has-lang?application=AxeChrome","serious","No","No","","[""html""]","Fix any of the following:
+  The <html> element does not have a lang attribute","<html>","cat.language,wcag2a,wcag311,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","[""img[align=\""absmiddle\""]""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img align=""absmiddle"" src=""/images/common/white_arrow.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","["".container > a:nth-child(1) > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img src=""/societyimages/nsq/mc_nsq_en_en_US.gif"" border=""0"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"image-alt","Ensures <img> elements have alternate text or a role of none or presentation","Images must have alternate text","https://dequeuniversity.com/rules/axe/4.3/image-alt?application=AxeChrome","critical","No","No","","["".container > a[border=\""\\30 \""] > img""]","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<img style=""padding-top:5%;padding-bottom:5%;"" src=""/images/en_US/layout/scholarone_manuscripts_logo_sage.gif"">","cat.text-alternatives,wcag2a,wcag111,section508,section508.22.a,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"label","Ensures every form element has a label","Form elements must have labels","https://dequeuniversity.com/rules/axe/4.3/label?application=AxeChrome","critical","No","No","","[""#QUICK_SEARCH_HEADER_SEARCH_TEXT""]","Fix any of the following:
+  Form element does not have an implicit (wrapped) <label>
+  Form element does not have an explicit <label>
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element has no placeholder attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation""","<input id=""QUICK_SEARCH_HEADER_SEARCH_TEXT"" name=""QUICK_SEARCH_HEADER_SEARCH_TEXT"" type=""text"" class=""span2 text_header"" hidefocus=""true"" style=""outline: none; margin-left: 0px;"" onfocus=""this.onkeypress = getEnterKeyQuickHeaderS"">","cat.forms,wcag2a,wcag412,wcag131,section508,section508.22.n,ACT","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav:nth-child(2) > li > a[target=\""_blank\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/solutions/scholarone/"" hidefocus=""true"" style=""outline: none;"">ScholarOne Manuscripts™</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#\\39 4124162""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a on="""" click=""handleContainerLight();"" id=""94124162"" data-toggle=""dropdown"" class=""dropdown-toggle nav-link"" href=""#"" hidefocus=""true"" border=""0"" style=""outline: none;"">				
+				
+				smith choi&nbsp;<img align=""absmiddle"" src=""/images/common/white_arrow.gif"" border=""0"">
+			</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(4) > a""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a hidefocus=""true"" style=""outline: none;"" href=""javascript:popWindowSimple('nsq?PARAMS=xik_5HXygsLAiFAUDxNrzUF55GzoBusfXvPHE8ER6yeMg7RGp4sYwcBFYEFsWxv6KqA6HK2ZfFhVQYvEXiXg4JbX4EBnwq2S3ASzgDP9FxqfKWNJBDfAGCmAuzK5weVDmneD5VtPuzHBroh1Lx9qY1MMfHzTGfGPJFt4sF4EH7LWNDWatXxNVMkbpRtT2kNveh84zUhkPynMpT5vtCvJG1Y9UctRB7P','forms_instructions_popup', 700, 400);"">","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(5) > a[target=\""_blank\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/support/scholarone-manuscripts/"" hidefocus=""true"" style=""outline: none;"">Help</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".nav-link:nth-child(6) > a""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a href=""javascript:setField('XIK_PREACT', 'xik_3KNki1eKu4bbvm88aY73cyQSV674yMCGaSsjHyrFWC6E');  
+	    setNextPage('SAGE_LOGIN');"" hidefocus=""true"" style=""outline: none;"">
+	
+
+Log Out</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".custom-bgcolor > a""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a href=""javascript:if(isPageCompletelyLoaded()){setDataAndNextPage('XIK_CUR_ROLE_ID', 'xik_2pAteAgQacuzJVEppVS5pt', 'HOME');}"" hidefocus=""true"" style=""outline: none;""><i class=""fa fa-home""></i> Home</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".breadcrumb > .active""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<li class=""active"">Author Dashboard
+	
+    
+    </li>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#selected_option""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<button value=""0"" id=""selected_option"" name=""0"" type=""button"" data-toggle=""dropdown"" class=""btn dropdown-toggle"" hidefocus=""true"" style=""outline: none;"">
+            			Manuscript ID  <span class=""fa fa-caret-down""></span> 
+            	</button>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""#btn_search""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<button id=""btn_search"" type=""button"" class=""btn"" hidefocus=""true"" style=""outline: none;"" onclick=""quickSearch();"">
+            		<i class=""fa fa-search""></i>Search
+            	</button>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".span11 > p:nth-child(1)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<p>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""p:nth-child(1) > .footerlink[target=\""new\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/legal/copyright/"" target=""new"" hidefocus=""true"" style=""outline: none;"">
+            ©&nbsp;Clarivate Analytics</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".ca_copyright""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<span class=""ca_copyright"">
+
+	        ©&nbsp;ScholarOne, Inc., 2021.
+          </span>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(5)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/7257767"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">#7,257,767</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(6)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&amp;Sect2=HITOFF&amp;p=1&amp;u=/netahtml/PTO/search-bool.html&amp;r=1&amp;f=G&amp;l=50&amp;d=PALL&amp;RefSrch=yes&amp;Query=PN/7263655"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">#7,263,655</a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".span11 > p:nth-child(2)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<p>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","[""p:nth-child(2) > .footerlink[target=\""new\""]""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""http://www.twitter.com/ScholarOneNews"" target=""new"" hidefocus=""true"" style=""outline: none;"">
+                <i class=""icon-twitter"" style=""color:#FFFFFF;""></i>&nbsp;@ScholarOneNews
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(2)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""nsq?PARAMS=xik_XLMLbmYRs7mTNa7SnLuSfa1NFSqVRx54wzaWbdk6dUCvibBioifwt2bAREbi3CorYiykPF1einf1bZop88LtqMtnuHUDNNK9U7edje49rC1tj4mzQ1T7guhRsgcaHnH9FXZdmfKNmKSnsmbuiTMqXrAq2mjiL5mV7Mknx3Yg5ciPeG41JDetCRwcogDm96jYJjy8"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(3)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/clarivate-analytics-scholarone-privacy-notice/"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">
+                <i class=""icon-key"" style=""color:#FFFFFF;""></i>&nbsp;Privacy Statement
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"color-contrast","Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds","Elements must have sufficient color contrast","https://dequeuniversity.com/rules/axe/4.3/color-contrast?application=AxeChrome",,"No","Yes","","["".footerlink[target=\""_blank\""]:nth-child(4)""]","Fix any of the following:
+  Element's background color could not be determined due to a background gradient","<a class=""footerlink"" href=""https://clarivate.com/legal/terms-of-use/"" target=""_blank"" hidefocus=""true"" style=""outline: none;"">
+                <i class=""icon-legal"" style=""color:#FFFFFF;""></i>&nbsp;Terms of Use
+            </a>","cat.color,wcag2aa,wcag143","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"landmark-one-main","Ensures the document has a main landmark","Document should have one main landmark","https://dequeuniversity.com/rules/axe/4.3/landmark-one-main?application=AxeChrome","moderate","No","No","","[""html""]","Fix all of the following:
+  Document does not have a main landmark","<html>","cat.semantics,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav:nth-child(2)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<ul class=""nav"">
+
+	<li>
+	
+		<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/solutions/scholarone/"" hidefocus=""true"" style=""outline: none;"">ScholarOne Manuscripts™</a>
+	</li>
+
+</ul>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#\\39 4124162""]","Fix any of the following:
+  Some page content is not contained by landmarks","<a on="""" click=""handleContainerLight();"" id=""94124162"" data-toggle=""dropdown"" class=""dropdown-toggle nav-link"" href=""#"" hidefocus=""true"" border=""0"" style=""outline: none;"">				
+				
+				smith choi&nbsp;<img align=""absmiddle"" src=""/images/common/white_arrow.gif"" border=""0"">
+			</a>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav-link:nth-child(4)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav-link:nth-child(5)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">
+	
+	 	<a target=""_blank"" href=""https://clarivate.com/webofsciencegroup/support/scholarone-manuscripts/"" hidefocus=""true"" style=""outline: none;"">Help</a>
+	 </li>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".nav-link:nth-child(6)""]","Fix any of the following:
+  Some page content is not contained by landmarks","<li class=""nav-link"">
+
+	<a href=""javascript:setField('XIK_PREACT', 'xik_3KNki1eKu4bbvm88aY73cyQSV674yMCGaSsjHyrFWC6E');  
+	    setNextPage('SAGE_LOGIN');"" hidefocus=""true"" style=""outline: none;"">
+	
+
+Log Out</a>
+</li>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".logoBar""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""hidden-phone hidden-tablet logoBar logoBarBcg-default"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".toplvlnav""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""nav-collapse toplvlnav"" style=""height: 100%;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#breadcrumbs-container""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div id=""breadcrumbs-container"" class=""navbar nav-collapse collapse breadcrumbnav"" style=""z-index:0;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#selected_option""]","Fix any of the following:
+  Some page content is not contained by landmarks","<button value=""0"" id=""selected_option"" name=""0"" type=""button"" data-toggle=""dropdown"" class=""btn dropdown-toggle"" hidefocus=""true"" style=""outline: none;"">
+            			Manuscript ID  <span class=""fa fa-caret-down""></span> 
+            	</button>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","["".input-append""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""input-append"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#stepsSectionDIV""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div class=""span3 bs-docs-sidebar"" id=""stepsSectionDIV"" style=""height: 130px;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""h1""]","Fix any of the following:
+  Some page content is not contained by landmarks","<h1>Start New Submission</h1>","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#briefText""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div id=""briefText"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"
+"region","Ensures all page content is contained by landmarks","All page content should be contained by landmarks","https://dequeuniversity.com/rules/axe/4.3/region?application=AxeChrome","moderate","No","No","","[""#SubmissionsTable""]","Fix any of the following:
+  Some page content is not contained by landmarks","<div id=""SubmissionsTable"" class=""content-inner-div"" style=""height: 180px;"">","cat.keyboard,best-practice","smithchoi0123@gmail.com",,"https://mc.manuscriptcentral.com/nsq","","2021-12-07T03:36:20.792Z"

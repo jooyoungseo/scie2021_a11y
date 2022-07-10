@@ -1,0 +1,20 @@
+xaringanExtra-clipboard	::
+data_prep	%>%	::	==	filter	glimpse	head	Languages	library
+desc_stat	%>%	::	count	df_eng	head	mutate	Publisher name	regex	str_replace_all	str_squish	T
+top10_publishers	%>%	::	aes	capture.output	coord_flip	df_top10	geom_col	ggplot	labs	n	paste	Publisher name	reorder	scale_fill_viridis_d
+random_journal_selection	%>%	::	df_clean	df_top10	group_by	inner_join	Journal title	n	Publisher name	rename	select	set.seed	slice_sample
+unnamed-chunk-1	%>%	c	Journal	list.files	map_dfr	mutate	Procedure	read_csv	regex	separate	set_names	str_replace_all	T
+unnamed-chunk-2	%>%	.	bind_rows	factor	glimpse	gt	Journal	jy_merge	levels	pull	select	slice_sample	write_csv
+unnamed-chunk-3	!	%>%	::	arrange	count	filter	group_by	Impact	is.na	mutate	n	paste0	pick	Procedure	round	sum	ungroup
+signup_issue	!	%>%	~	==	aes	arrange	close	coord_flip	count	facet_wrap	file	filter	geom_col	ggplot	group_by	Impact	is.na	make_alt	mutate	n	paste0	Procedure	prop	reorder_within	round	Rule ID	scale_fill_viridis_d	scale_x_reordered	signup_submission	sum	ungroup	writeLines
+submission_issue	!	%>%	~	==	aes	arrange	close	coord_flip	count	facet_wrap	file	filter	geom_col	ggplot	group_by	Impact	is.na	make_alt	mutate	n	paste0	Procedure	prop	reorder_within	round	Rule ID	scale_fill_viridis_d	scale_x_reordered	signup_submission	sum	ungroup	writeLines
+chiSquare	::	apa_print	attach	chisq.test	Impact	rowSums	signup_submission	sum	System	T	table
+result	$	::	>	chiOut	if
+unnamed-chunk-4	chiTable
+caApplicability	&	>	ncol	nrow	t
+caPlot	ca	library	plot	t
+heatmap	c	colorRampPalette	heatmap	t
+heatmapRow	c	colorRampPalette	heatmap	prop.table	t
+heatmapCol	c	colorRampPalette	F	library	pheatmap	prop.table	t	T
+unnamed-chunk-5	detach
+unnamed-chunk-6	!	%>%	::	arrange	count	filter	group_by	Impact	is.na	mutate	n	paste0	round	select	signup_submission	sum	System	ungroup

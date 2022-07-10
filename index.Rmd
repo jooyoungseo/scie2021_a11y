@@ -1,0 +1,374 @@
+---
+title: "Are blind people considered a part of scientific knowledge producers?: Accessibility report on top-10 SCIE journal systems using a tripartite evaluation approach"
+author: "JooYoung Seo and Soyoung Choi"
+output:
+  bookdown::html_document2:
+    number_sections: false
+  bookdown::word_document2:
+    number_sections: false
+# knit: bookdown::render_book
+always_allow_html: true
+bibliography: "bib/references.bib"
+csl: "bib/mla8.csl"
+---
+
+```{r setup, cache = FALSE, include = FALSE, echo = FALSE, warning = FALSE, purl = FALSE}
+library(knitr)
+library(printr)
+knitr::opts_chunk$set(fig.path = "figure/", tidy = "styler", cache = TRUE, cache.comments = FALSE, autodep = TRUE)
+dep_auto()
+options(digits = 4)
+```
+
+```{r xaringanExtra-clipboard, echo=FALSE}
+xaringanExtra::use_clipboard()
+```
+
+# Data Preprocessing
+
+```{r data_prep}
+# Load required packages.
+library(tidyverse)
+library(tidytext)
+library(gt)
+library(ezpickr)
+library(BrailleR)
+library(papaja)
+
+# Import data.
+df <- ezpickr::pick("data/wos-core_SCIE 2021-November-16.csv")
+
+# Take a glance at df.
+glimpse(df)
+head(df)
+
+# Only include English data.
+df_eng <- df %>%
+    filter(Languages == "English")
+
+# Take a glance at df_eng.
+glimpse(df_eng)
+head(df_eng)
+```
+
+# Descriptive Statistics
+
+```{r desc_stat}
+# Count top-10 publishers.
+df_eng %>%
+    count(`Publisher name`, sort = TRUE) %>%
+    head(10)
+
+# Clean up Publisher name to take out some redundant suffix/prefix.
+df_clean <- df_eng %>%
+    mutate(`Publisher name` = str_replace_all(`Publisher name`, regex("(inc|ltd)$", ignore_case = T), "")) %>%
+    mutate(`Publisher name` = str_replace_all(`Publisher name`, regex("^(SPRINGER )[[:print:][:cntrl:]]+", ignore_case = T), "SPRINGER")) %>%
+    mutate(`Publisher name` = str_replace_all(`Publisher name`, regex("^(ELSEVIER)[[:print:][:cntrl:]]+|Pergamon-Elsevier Science[[:print:][:cntrl:]]*", ignore_case = T), "ELSEVIER")) %>%
+    mutate(`Publisher name` = str_replace_all(`Publisher name`, regex("^(SAGE)[[:print:][:cntrl:]]+", ignore_case = T), "SAGE")) %>%
+    mutate(`Publisher name` = str_replace_all(`Publisher name`, regex("^(TAYLOR & FRANCIS)[[:print:][:cntrl:]]+", ignore_case = T), "TAYLOR & FRANCIS")) %>%
+    mutate(`Publisher name` = str_replace_all(`Publisher name`, regex("^(WILEY)[[:print:][:cntrl:]]+", ignore_case = T), "WILEY")) %>%
+    mutate(`Publisher name` = str_squish(`Publisher name`)) %>%
+    mutate(`Publisher name` = str_replace_all(`Publisher name`, regex("^(IEEE)[[:print:][:cntrl:]]*", ignore_case = T), "IEEE"))
+
+# Re-count Publisher name.
+df_count <- df_clean %>%
+    count(`Publisher name`, sort = TRUE)
+
+# Top-10 publishers.
+df_top10 <- df_count %>%
+    head(10)
+
+df_top10
+
+# Save top-10 publishers in csv.
+readr::write_csv(df_top10, "csv/top10.csv")
+```
+
+```{r top10_publishers, fig.alt = alt}
+# Visualize top-10 publishers.
+g_top10 <- df_top10 %>%
+    ggplot(aes(x = reorder(`Publisher name`, n), y = n, fill = `Publisher name`)) +
+    labs(x = "Top 10 Publishers", y = "Journal Count") +
+    geom_col(show.legend = FALSE) +
+    # Use the following code to make our chart accessible for those with color-blindness:
+    scale_fill_viridis_d()
+
+make_alt <- function(x) {
+    paste(capture.output(BrailleR::VI(x), collapse = " "))
+}
+
+# Make alternative description.
+alt <- make_alt(g_top10)
+alt
+
+# Flip the plot to avoid overlapping labels.
+g_top10 + coord_flip()
+```
+
+```{r random_journal_selection}
+# Randomly select one journal per top-10 publisher.
+## Set seed value for reproducibility.
+set.seed(7777)
+df_random <- df_clean %>%
+    select(`Publisher name`, `Journal title`) %>%
+    group_by(`Publisher name`) %>%
+    slice_sample(n = 1)
+
+df_top10_random_sample <- df_top10 %>%
+    inner_join(df_random) %>%
+    rename(Publisher = `Publisher name`, `Number of journal (English-only)` = n, `Target journal` = `Journal title`)
+
+df_top10_random_sample
+
+# Save randomly selected 10 journals in csv.
+readr::write_csv(df_top10_random_sample, "csv/randomly_selected_10_journals.csv")
+```
+
+
+```{r, eval = FALSE, echo = FALSE}
+jy_merge <- function(p) {
+    # p <- "devtools/signup/Editorial Manager/"
+    files <- list.files(p, pattern = "csv", full.names = TRUE) %>%
+        set_names()
+
+    merged <- files %>%
+        map_dfr(read_csv, .id = "Procedure") %>%
+        separate(Procedure, into = c(NA, "Procedure", "System", "Journal"), sep = "/") %>%
+        mutate(Journal = str_replace_all(Journal, regex("\\d*[.]csv", ignore_case = T), ""))
+
+    # saveRDS(merged, file = paste0(p, "/all.rds"))
+    merged
+}
+```
+
+
+```{r, eval = FALSE, echo = FALSE}
+signup_em <- jy_merge("devtools/signup/Editorial Manager/")
+signup_sm <- jy_merge("devtools/signup/ScholarOne Manuscripts/")
+signup_ojs <- jy_merge("devtools/signup/Open Journal Systems/")
+submission_em <- jy_merge("devtools/submission/Editorial Manager/")
+submission_sm <- jy_merge("devtools/submission/ScholarOne Manuscripts/")
+submission_ojs <- jy_merge("devtools/submission/Open Journal Systems/")
+
+signup_submission <- bind_rows(
+    signup_em,
+    signup_sm,
+    signup_ojs,
+    submission_em,
+    submission_sm,
+    submission_ojs
+)
+
+write_csv(signup_submission, "csv/signup_submission.csv")
+
+signup_ojs %>%
+    glimpse()
+
+signup_ojs %>%
+    slice_sample(n = 20) %>%
+    gt()
+
+signup_ojs %>%
+    select(Journal) %>%
+    pull(.) %>%
+    factor() %>%
+    levels()
+```
+
+```{r}
+signup_submission <- pick("csv/signup_submission.csv")
+
+signup_submission %>%
+    filter(!is.na(Impact)) %>%
+    count(Procedure, Impact, sort = TRUE) %>%
+    group_by(Procedure) %>%
+    mutate(`%` = paste0(round(100 * n / sum(n)), "%")) %>%
+    ungroup() %>%
+    arrange(Procedure) %>%
+    readr::write_csv("csv/Table2_common_issue.csv")
+```
+
+```{r signup_issue, fig.alt = alt}
+g_signup_issue <- signup_submission %>%
+    filter(!is.na(Impact)) %>%
+    filter(Procedure == "signup") %>%
+    count(Impact, `Rule ID`, sort = TRUE) %>%
+    group_by(Impact) %>%
+    mutate(prop = paste0(round(100 * n / sum(n)), "%")) %>%
+    ungroup() %>%
+    arrange(Impact) %>%
+    ggplot(aes(x = reorder_within(`Rule ID`, prop, `Rule ID`), y = prop, fill = `Rule ID`)) +
+    geom_col(show.legend = FALSE) +
+    coord_flip() +
+    facet_wrap(~Impact, scales = "free") +
+    scale_x_reordered() +
+    # scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
+    scale_fill_viridis_d()
+
+g_signup_issue
+
+alt_signup_issue <- signup_submission %>%
+    filter(!is.na(Impact)) %>%
+    filter(Procedure == "signup") %>%
+    count(Impact, `Rule ID`, sort = TRUE) %>%
+    group_by(Impact) %>%
+    mutate(prop = paste0(round(100 * n / sum(n)), "%")) %>%
+    ungroup() %>%
+    arrange(Impact) %>%
+    ggplot(aes(x = reorder_within(`Rule ID`, prop, `Rule ID`), y = prop, fill = `Rule ID`)) +
+    geom_col(show.legend = FALSE) +
+    # coord_flip() +
+    facet_wrap(~Impact, scales = "free") +
+    scale_x_reordered() +
+    # scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
+    scale_fill_viridis_d()
+
+alt <- make_alt(alt_signup_issue)
+
+fileConn <- file("fig1_alt.txt")
+writeLines(alt, fileConn)
+close(fileConn)
+```
+
+
+```{r submission_issue, fig.alt = alt}
+g_submission_issue <- signup_submission %>%
+    filter(!is.na(Impact)) %>%
+    filter(Procedure == "submission") %>%
+    count(Impact, `Rule ID`, sort = TRUE) %>%
+    group_by(Impact) %>%
+    mutate(prop = paste0(round(100 * n / sum(n)), "%")) %>%
+    ungroup() %>%
+    arrange(Impact) %>%
+    ggplot(aes(x = reorder_within(`Rule ID`, prop, `Rule ID`), y = prop, fill = `Rule ID`)) +
+    geom_col(show.legend = FALSE) +
+    coord_flip() +
+    facet_wrap(~Impact, scales = "free") +
+    scale_x_reordered() +
+    # scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
+    scale_fill_viridis_d()
+
+g_submission_issue
+
+alt_submission_issue <- signup_submission %>%
+    filter(!is.na(Impact)) %>%
+    filter(Procedure == "submission") %>%
+    count(Impact, `Rule ID`, sort = TRUE) %>%
+    group_by(Impact) %>%
+    mutate(prop = paste0(round(100 * n / sum(n)), "%")) %>%
+    ungroup() %>%
+    arrange(Impact) %>%
+    ggplot(aes(x = reorder_within(`Rule ID`, prop, `Rule ID`), y = prop, fill = `Rule ID`)) +
+    geom_col(show.legend = FALSE) +
+    # coord_flip() +
+    facet_wrap(~Impact, scales = "free") +
+    scale_x_reordered() +
+    # scale_y_continuous(labels = scales::percent_format(accuracy = 0.1)) +
+    scale_fill_viridis_d()
+
+alt <- make_alt(alt_submission_issue)
+
+fileConn <- file("fig2_alt.txt")
+writeLines(alt, fileConn)
+close(fileConn)
+```
+
+# Chi-Square Test
+
+```{r chiSquare, echo=F, include=F, warning=T}
+data <- signup_submission
+
+attach(data)
+
+
+IV <- System
+DV <- Impact
+
+IVdesc <- "journal system"
+DVdesc <- "accessibility impact"
+
+t <- table(DV, IV)
+chiOut <- chisq.test(t)
+chiResult <- apa_print(chiOut, n = sum(rowSums(t)))
+chiResultP <- apa_print(chiOut, n = sum(rowSums(t)), in_paren = T)
+chiTable <- broom::tidy(chiOut)
+```
+
+# Research Question
+
+Is there a statistically significant relationship between `r IVdesc` and `r DVdesc`?
+
+## Hypotheses
+
+*H0*: There is no statistically significant relationship between `r IVdesc` and `r DVdesc`.
+
+In other words, `r IVdesc` and `r DVdesc` are independent of one another.
+
+*Ha*: There is a statistically significant relationship between `r IVdesc` and `r DVdesc`.
+
+In other words, `r IVdesc` and `r DVdesc` are not independent.
+
+# Data Analysis
+
+We used `r papaja::cite_r()` for all our analyses.
+
+To examine the research question, `r chiOut$method` will be conducted. The Chi-squared is an appropriate statistical test when the purpose of the research is to examine the relationship between two nominal level variables [@agresti2007introduction].
+
+To evaluate significance of the results, the calculated Chi-squared coefficient ($\chi^2$) and the critical value coefficient will be compared. When the calculated value is larger than the critical value, with alpha of .05, the null hypothesis will be rejected (suggesting a significant relationship).
+
+In order to determine the degrees of freedom for a Chi-squared, it is necessary to use the following equation:
+
+$$df = (r - 1)(c - 1)$$
+
+The r value equals the number of rows, and the c value equals the number of columns. In order for a Chi-squared to run correctly, several conditions and assumptions must be met. The data must be random samples of multinomial mutually exclusive distribution and the expected frequencies should not be too small. As a traditional precautionary measure in Chi-squared examination, the expected frequencies below five should not account for more than 20% of the cells, and there should be no cells with an expected frequency of less than one. If the expected cell frequencies are less than 5, Yates continuity correction will be used to test for significance (if it is a $2\times{}2$ Chi squared), as it is a more conservative statistic.
+
+# Results
+
+```{r result, echo=F}
+if (chiOut$p.value > 0.05) {
+    chiInterpret <- glue::glue("{DVdesc} does not differ by {IVdesc}, {chiResult$statistic}.")
+} else {
+    chiInterpret <- glue::glue("There is an association between {IVdesc} and {DVdesc} ({chiResultP$statistic}).")
+}
+```
+
+The following is the results of the interpretation.
+
+`r chiInterpret[1]`
+
+```{r}
+chiTable
+```
+
+# Visualization
+
+```{r caApplicability, echo=F, include=F, warning=F}
+caCheck <- (nrow(t) > 2 & ncol(t) > 2)
+```
+
+`r if(caCheck) {knit_child('visualization/CorrespondenceAnalysis.txt')}`
+
+`r knit_child('visualization/HeatMap.txt')`
+
+```{r, eval = F}
+detach(data)
+```
+
+
+
+```{r}
+a11y_impact_per_system <- signup_submission %>%
+    filter(!is.na(Impact)) %>%
+    count(System, Impact, sort = TRUE) %>%
+    group_by(System) %>%
+    mutate(`%` = paste0(round(100 * n / sum(n)), "%")) %>%
+    ungroup() %>%
+    arrange(System) %>%
+    select(-n)
+
+a11y_impact_per_system
+
+readr::write_csv(a11y_impact_per_system, "csv/Table3_a11y_impact_per_system.csv")
+```
+
+# References {-}
